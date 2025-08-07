@@ -136,23 +136,23 @@ This will build the Flask weather exporter, and start Prometheus, Grafana, and y
 Service	URL (replace <IP> with your VM's public IP)
 
 Weather Exporter Metrics:	
-
+```
 Weatherapp  http://<IP>:5000/metrics
 Prometheus	http://<IP>:9090
 Grafana	    http://<IP>:3000
-
+```
 Example: 
-
+```
 http://108.143.124.44:3000/login      # Used to log into Grafana and view dashboards.
 http://108.143.124.44:9090/query      # Run Prometheus queries (e.g., tallinn_temperature_celsius).
 http://108.143.124.44:9090/targets    # Verify if Prometheus is scraping the weather exporter successfully.
 http://108.143.124.44:5000/metrics    # Raw metrics exposed by the Flask app (used by Prometheus).
-
-
+```
+```
 Default Grafana Login
 Username: admin
 Password: admin (or set one via provisioning)
-
+```
 
 ## 📊 Accessing Grafana and Visualizing the Dashboard
 A sample dashboard JSON is available in: grafana-dashboard-json-model/tallinn-temperature-dashboard.json
@@ -160,12 +160,14 @@ A sample dashboard JSON is available in: grafana-dashboard-json-model/tallinn-te
 You can import this manually via Grafana UI to visualize the Tallinn temperature metric: tallinn_temperature_celsius.
 
 Open Grafana in your browser using your VM's public IP:
+```
 http://<your-vm-ip>:3000
-
+```
+```
 Login credentials (first time):
 Username: admin
 Password: admin
-
+```
 After the first login, you will be prompted to change your password.
 
 Once logged in:
