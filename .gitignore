@@ -1,0 +1,25 @@
+# Python related
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Terraform related
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+
+# Environment and secrets
+.env
+
+# OS related
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Logs 
+*.log
