@@ -28,26 +28,26 @@ This project is a home assignment for the **DevOps Engineer** position. The goal
 ---
 
 ## 📁 Project Structure
+
+```
 .
 ├── grafana-dashboard-json-model/
-│   └── tallinn-temperature-dashboard.json  
+│   └── tallinn-temperature-dashboard.json
 ├── terraform/
-│ ├── main.tf
-│ ├── setup-instance.sh
-│ ├── variables.tf
-│ └── ...
+│   ├── main.tf
+│   ├── setup-instance.sh
+│   ├── variables.tf
+│   └── ...
 ├── weather-app/
-│ ├── weather-app.py
-│ ├── Dockerfile
-│ └── requirements.txt
-├── grafana-dashboard-json-model/
-│ └── tallinn-temperature-dashboard.json
+│   ├── weather-app.py
+│   ├── Dockerfile
+│   └── requirements.txt
 ├── docker-compose.yml
 ├── prometheus.yml
-├── .env.example # Example for API key
+├── .env.example     # Example for API key
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
